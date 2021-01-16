@@ -1,12 +1,10 @@
 # PIT Demo
 
-A simple application that has only one method that receive multiple numbers and 
-returns the sum of the event numbers.
+A simple application that has only one method that receives multiple numbers and returns the sum of the even numbers.
 
-This app is used to demonstrate the PIT library. PIT is use for mutation testing.
+This app is used to demonstrate the PIT library. PIT is used for mutation testing.
 
-In order to generate a report based on the mutation testing run this command in the root 
-directory of the project:
+In order to generate a report based on the mutation testing run this command in the root directory of the project:
 
 `mvn clean package org.pitest:pitest-maven:mutationCoverage`
 

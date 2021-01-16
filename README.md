@@ -10,6 +10,6 @@ directory of the project:
 
 `mvn clean package org.pitest:pitest-maven:mutationCoverage`
 
-You will find the report in `target/pi-reports/*` open `index.html` to view the report.
+You will find the report in `target/pit-reports/*` open `index.html` to view the report.
 
 ##### Note: If you are using an IDE there is a high chance a plugin for PIT exists 
